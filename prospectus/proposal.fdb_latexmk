@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1757526313 "/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex" "proposal.pdf" "proposal" 1757526314
-  "/dev/null" 1757512895 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1757540143 "/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex" "proposal.pdf" "proposal" 1757540143
+  "/dev/null" 1757523462 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1757447482 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nashr/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm-mf-extra-bold/cmbcsc10.1493pk" 1757469047 33468 9823c60412c066afdf4dff475ddc0f4f ""
-  "/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex" 1757526213 1656 7c4170ead13053cbddd06497bb3798d3 ""
+  "/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex" 1757538743 1986 4781a7c45ca2643a195ae11829f0615b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm-mf-extra-bold/cmbcsc10.tfm" 1510681121 1244 c6d03fcafeb5dd14034e5fd753d699d8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -98,13 +98,14 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757467961 2801989 3ec01e991a557bd1e81f61a87d0cfccc ""
   "0_prelim/BU_logo.svg" 1757461958 25211 f052c422b2f36876b52d920b80abffbe ""
   "0_prelim/prelim.tex" 1757516438 1070 70ce3ae67f599b880b1e19f7c82aff20 ""
-  "1_abstract/abstract.tex" 1757526313 84 b7757bae27d062c530cd65f96b61f194 ""
+  "1_abstract/abstract.tex" 1757540142 763 82a35cd0e7915f9f10586c8216e240ff ""
   "2_background/background.tex" 1757506284 127 28283b7ebe4e99a2617dc14e0fd6e581 ""
   "3_prior/prior.tex" 1757461250 47 135ea0a84c76d2ac50d5806c60af27cd ""
-  "4_timeline/timeline.tex" 1757461361 77 04da7abdd2c27483c31a5fc802b22f1b ""
-  "proposal.aux" 1757526314 1321 ee14e74cfd2381e30da3228738b4387d "pdflatex"
-  "proposal.out" 1757526314 529 e7899d51a0cb75f1e62ef3cd69f36d36 "pdflatex"
-  "proposal.toc" 1757526314 341 7820b42475b16d9a134c8d6fafc927ae "pdflatex"
+  "4_approach/approach.tex" 1757538342 17 5df2a382dff2cdf824c82d9be5ddcaae ""
+  "5_timeline/timeline.tex" 1757461361 77 04da7abdd2c27483c31a5fc802b22f1b ""
+  "proposal.aux" 1757540143 1435 b9063592b1f93bb4ebc352554c03f49d "pdflatex"
+  "proposal.out" 1757540143 660 c91b550151190c68e4ae1e8c955eae4f "pdflatex"
+  "proposal.toc" 1757540143 414 1fb6363e20778074dcb54232dd780d56 "pdflatex"
   "svg-inkscape/BU_logo_svg-tex.pdf" 1757468705 5237 8fe893613332ea5c48f870c0be95c49a ""
   "svg-inkscape/BU_logo_svg-tex.pdf_tex" 1757468705 2086 60b5c18c6e0d3c0102bae446928b9111 ""
   (generated)
