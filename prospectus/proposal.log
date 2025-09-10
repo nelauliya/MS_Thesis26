@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.9)  9 SEP 2025 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.9)  10 SEP 2025 08:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/nashr/Local Disk/Users/Nashr El Auliya/Documents/GRAD SCHOOL/2_Research/Sabelhaus/MS_Thesis26/prospectus/proposal.tex"
-(/media/nashr/Local Disk/Users/Nashr El Auliya/Documents/GRAD SCHOOL/2_Research/Sabelhaus/MS_Thesis26/prospectus/proposal.tex
+**/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex
+(/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
@@ -258,7 +258,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 23.
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box52
-) (./proposal.aux (./0_prelim/prelim.aux))
+) (./proposal.aux (./0_prelim/prelim.aux) (./1_personal/personal.aux) (./2_background/background.aux) (./3_prior/prior.aux) (./4_timeline/timeline.aux))
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -333,23 +333,49 @@ LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <24.88> not available
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./svg-inkscape/BU_logo_svg-tex.pdf>]) (./proposal.aux (./0_prelim/prelim.aux))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./svg-inkscape/BU_logo_svg-tex.pdf>])
+\openout2 = `1_personal/personal.aux'.
+
+ (./1_personal/personal.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \include{1_personal/personal}
+                                   [1
+
+
+
+
+]
+\openout2 = `2_background/background.aux'.
+
+ (./2_background/background.tex) [2
+
+
+
+
+]
+\openout2 = `3_prior/prior.aux'.
+
+ (./3_prior/prior.tex)
+\openout2 = `4_timeline/timeline.aux'.
+
+ (./4_timeline/timeline.tex) (./proposal.aux (./0_prelim/prelim.aux) (./1_personal/personal.aux) (./2_background/background.aux) (./3_prior/prior.aux) (./4_timeline/timeline.aux))
 Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10871 strings out of 478287
- 187894 string characters out of 5849290
- 497957 words of memory out of 5000000
- 28876 multiletter control sequences out of 15000+600000
+ 10988 strings out of 478287
+ 191820 string characters out of 5849290
+ 499449 words of memory out of 5000000
+ 28960 multiletter control sequences out of 15000+600000
  471976 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,7n,92p,435b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,7n,92p,371b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nashr/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm-mf-extra-bold/cmbcsc10.1493pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on proposal.pdf (1 page, 55092 bytes).
+Output written on proposal.pdf (3 pages, 56359 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
+ 63 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
