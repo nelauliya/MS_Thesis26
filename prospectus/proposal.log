@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.9)  10 SEP 2025 08:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.9.9)  10 SEP 2025 13:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,20 +6,19 @@ entering extended mode
 **/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex
 (/home/nashr/Desktop/SRCLab/MS_Thesis26/prospectus/proposal.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -86,9 +85,9 @@ runsystem(uname -s > "proposal.w18")...executed.
 runsystem(rm -- "proposal.w18")...executed.
 
 )
-\c@svg@param@lastpage=\count194
+\c@svg@param@lastpage=\count193
 \svg@box=\box50
-\c@svg@param@currpage=\count195
+\c@svg@param@currpage=\count194
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -136,14 +135,14 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen152
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count196
-\c@pgf@countb=\count197
-\c@pgf@countc=\count198
-\c@pgf@countd=\count199
+\c@pgf@counta=\count195
+\c@pgf@countb=\count196
+\c@pgf@countc=\count197
+\c@pgf@countd=\count198
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count266
+\pgf@sys@id@count=\count199
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -154,14 +153,24 @@ File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count267
-\pgfsyssoftpath@bigbuffer@items=\count268
+\pgfsyssoftpath@smallbuffer@items=\count266
+\pgfsyssoftpath@bigbuffer@items=\count267
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (/usr/share/texlive/texmf-dist/tex/latex/bold-extra/bold-extra.sty
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 ) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/share/texlive/texmf-dist/tex/latex/hanging/hanging.sty
+Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
+\h@ngcommawd=\skip49
+\h@ngfstopwd=\skip50
+\h@ngquotewd=\skip51
+\h@ngdquotewd=\skip52
+\h@ngquerywd=\skip53
+\h@ngexclwd=\skip54
+\h@ngcolonwd=\skip55
+\h@ngscolonwd=\skip56
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
@@ -178,8 +187,8 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen153
-\Hy@linkcounter=\count269
-\Hy@pagecounter=\count270
+\Hy@linkcounter=\count268
+\Hy@pagecounter=\count269
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -189,7 +198,7 @@ File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel lan
 ) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count271
+\Hy@SavedSpaceFactor=\count270
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -202,7 +211,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count272
+\c@Hy@tempcnt=\count271
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -214,7 +223,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count273
+\Fld@menulength=\count272
 \Field@Width=\dimen155
 \Fld@charsize=\dimen156
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -230,9 +239,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count274
-\c@Item=\count275
-\c@Hfootnote=\count276
+\Hy@abspage=\count273
+\c@Item=\count274
+\c@Hfootnote=\count275
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -241,8 +250,8 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count277
-\c@bookmark@seq@number=\count278
+\Fld@listcount=\count276
+\c@bookmark@seq@number=\count277
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -250,47 +259,56 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip57
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 23.
 Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+ (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
+\l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box52
-) (./proposal.aux (./0_prelim/prelim.aux) (./1_personal/personal.aux) (./2_background/background.aux) (./3_prior/prior.aux) (./4_timeline/timeline.aux))
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count279
+\l__lipsum_a_int=\count280
+\l__lipsum_b_int=\count281
+ (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (./proposal.aux)
 \openout1 = `proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
+\scratchcounter=\count282
 \scratchdimen=\dimen157
 \scratchbox=\box53
-\nofMPsegments=\count281
-\nofMParguments=\count282
+\nofMPsegments=\count283
+\nofMParguments=\count284
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count283
+\MPscratchCnt=\count285
 \MPscratchDim=\dimen158
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
 \everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -298,7 +316,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -306,76 +324,63 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count286
+\c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (./proposal.out) (./proposal.out)
 \@outlinefile=\write4
 \openout4 = `proposal.out'.
 
-\openout2 = `0_prelim/prelim.aux'.
-
  (./0_prelim/prelim.tex
 Package svg Info: Last page of `./svg-inkscape/BU_logo_svg-tex.pdf' is 1 on input line 6.
  (./svg-inkscape/BU_logo_svg-tex.pdf_tex
-<./svg-inkscape/BU_logo_svg-tex.pdf, id=8, page=1, 376.40625pt x 168.63715pt>
+<./svg-inkscape/BU_logo_svg-tex.pdf, id=28, page=1, 376.40625pt x 168.63715pt>
 File: ./svg-inkscape/BU_logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/BU_logo_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/BU_logo_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 150.5602pt x 67.45622pt.
 )
 LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 12.
+(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <24.88> not available
-(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 12.
+(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 13.
  [1
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./svg-inkscape/BU_logo_svg-tex.pdf>])
-\openout2 = `1_personal/personal.aux'.
-
- (./1_personal/personal.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./svg-inkscape/BU_logo_svg-tex.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \include{1_personal/personal}
-                                   [1
+l.34     \cleardoublepage
+                          [1] (./proposal.toc)
+\tf@toc=\write5
+\openout5 = `proposal.toc'.
 
+ [1
 
+]) (./1_abstract/abstract.tex) (./2_background/background.tex) (./3_prior/prior.tex) (./4_timeline/timeline.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \end{document}
+                    [1
 
-
-]
-\openout2 = `2_background/background.aux'.
-
- (./2_background/background.tex) [2
-
-
-
-
-]
-\openout2 = `3_prior/prior.aux'.
-
- (./3_prior/prior.tex)
-\openout2 = `4_timeline/timeline.aux'.
-
- (./4_timeline/timeline.tex) (./proposal.aux (./0_prelim/prelim.aux) (./1_personal/personal.aux) (./2_background/background.aux) (./3_prior/prior.aux) (./4_timeline/timeline.aux))
+] (./proposal.aux)
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: E7899D51A0CB75F1E62EF3CD69F36D36;529.
  ) 
 Here is how much of TeX's memory you used:
- 10988 strings out of 478287
- 191820 string characters out of 5849290
- 499449 words of memory out of 5000000
- 28960 multiletter control sequences out of 15000+600000
- 471976 words of font info for 37 fonts, out of 8000000 for 9000
+ 11414 strings out of 478287
+ 199854 string characters out of 5849290
+ 593361 words of memory out of 5000000
+ 29380 multiletter control sequences out of 15000+600000
+ 472283 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,7n,92p,371b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,7n,92p,371b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nashr/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm-mf-extra-bold/cmbcsc10.1493pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on proposal.pdf (3 pages, 56359 bytes).
+Output written on proposal.pdf (4 pages, 70663 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

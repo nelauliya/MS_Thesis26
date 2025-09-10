@@ -9,7 +9,9 @@
         \vfill
         {\large Thesis Prospectus}\\
         \vfill
-        \textbf{\textsc{\huge\thesisName}} \\
+        \begin{spacing}{1.5}
+            \textbf{\textsc{\huge\thesisName}} \\
+        \end{spacing}
         \vfill
         by \\
         \vfill
@@ -23,3 +25,19 @@
         \end{doublespace}
     \end{center}
 \end{titlepage}
+
+\newpage
+\pagestyle{empty}
+    \begin{center}
+        This page intentionally left blank.
+    \end{center}
+    \cleardoublepage
+\pagestyle{plain}
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+    \tableofcontents
+\cleardoublepage
+
+\setcounter{page}{1}
+\pagenumbering{arabic}

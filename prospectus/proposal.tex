@@ -1,5 +1,5 @@
-\documentclass[12pt,letterpaper]{report}          % Single-sided printing for the library
-%\documentclass[12pt,twoside]{report}             % Double-sided printing
+\documentclass[12pt,letterpaper]{article}          % Single-sided printing for the library
+%\documentclass[12pt,twoside]{article}             % Double-sided printing
 
 %Start Package declarations
 %==========================================================================%
@@ -12,7 +12,7 @@
 %Formatting
 \usepackage{bold-extra}
 \usepackage{setspace}
-
+\usepackage{hanging} %hanging indents for bib
 
 %--------------------------------------------------------------------------%
 %Maths
@@ -21,29 +21,34 @@
 %Utilities
 \usepackage{hyperref}
 \hypersetup{breaklinks=true,colorlinks=true,linkcolor=blue,urlcolor=magenta,citecolor=cyan} %Hyperref links settings
+\usepackage{lipsum} %Filler words
 %==========================================================================%
 %End Package declarations
 
 \def\authorName{Nashr El Auliya}
-\def\thesisName{[Thesis Name Here]}
+\def\thesisName{3-Dimensional Trajectory Generation for Soft Robot Manipulators}
 
 \begin{document}
 %==========================================================================%
-\include{0_prelim/prelim}
-\cleardoublepage
+\input{0_prelim/prelim}
 
-\include{1_personal/personal}
-\cleardoublepage
+\section{Abstract}
+\input{1_abstract/abstract}
+%\cleardoublepage
 
-\include{2_background/background}
-\cleardoublepage
+\section{Topic Background}
+\input{2_background/background}
+%\cleardoublepage
 
-\include{3_prior/prior}
-\cleardoublepage
+\section{Prior Work}
+\input{3_prior/prior}
+%\cleardoublepage
 
-\include{4_timeline/timeline}
-\cleardoublepage
+\section{Research Approach}
+\input{4_timeline/timeline}
+%\cleardoublepage
 
+\section{References}
 %Add references/bibliography
 
 %==========================================================================%
