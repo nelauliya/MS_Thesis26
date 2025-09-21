@@ -1,0 +1,15 @@
+#     Filetypes     #
+#####################
+#<--- enter filetypes here
+
+#  Individual File  #
+#####################
+
+#Ignore files used for "pretty" standalone abstract file
+loneAbstract.aux
+loneAbstract.fdb_latexmk
+loneAbstract.fls
+loneAbstract.log
+loneAbstract.pdf
+loneAbstract.synctex.gz
+loneAbstract.tex
