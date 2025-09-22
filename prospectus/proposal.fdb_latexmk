@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1758477547 "/media/nashr/Local Disk/Users/Nashr El Auliya/Documents/GRAD SCHOOL/2_Research/Sabelhaus/MS_Thesis26/prospectus/proposal.tex" "proposal.pdf" "proposal" 1758477548
-  "/dev/null" 1758378626 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1758486024 "/media/nashr/Local Disk/Users/Nashr El Auliya/Documents/GRAD SCHOOL/2_Research/Sabelhaus/MS_Thesis26/prospectus/proposal.tex" "proposal.pdf" "proposal" 1758486024
+  "/dev/null" 1758471457 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1757447482 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nashr/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm-mf-extra-bold/cmbcsc10.1493pk" 1757469047 33468 9823c60412c066afdf4dff475ddc0f4f ""
   "/media/nashr/Local Disk/Users/Nashr El Auliya/Documents/GRAD SCHOOL/2_Research/Sabelhaus/MS_Thesis26/prospectus/proposal.tex" 1758394080 2007 c94256055307ca211ae88a59ab56bf7d ""
@@ -99,15 +99,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757467961 2801989 3ec01e991a557bd1e81f61a87d0cfccc ""
   "0_prelim/BU_logo.svg" 1757461958 25211 f052c422b2f36876b52d920b80abffbe ""
   "0_prelim/prelim.tex" 1758397769 1068 a4d4d4aa5f3d0850836d2b3fccb5a9c3 ""
-  "1_abstract/abstract.tex" 1758477547 2452 bd1e61c5961e25268cf881e0364e6e39 ""
+  "1_abstract/abstract.tex" 1758486023 2451 e3c690ec2f7f45a580f0378474433d56 ""
   "2_background/background.tex" 1757506284 127 28283b7ebe4e99a2617dc14e0fd6e581 ""
   "3_prior/prior.tex" 1757461250 47 135ea0a84c76d2ac50d5806c60af27cd ""
   "4_approach/approach.tex" 1757538342 17 5df2a382dff2cdf824c82d9be5ddcaae ""
   "5_timeline/timeline.tex" 1757461361 77 04da7abdd2c27483c31a5fc802b22f1b ""
-  "proposal.aux" 1758477548 1435 b9063592b1f93bb4ebc352554c03f49d "pdflatex"
-  "proposal.out" 1758477548 660 c91b550151190c68e4ae1e8c955eae4f "pdflatex"
+  "proposal.aux" 1758486024 1435 b9063592b1f93bb4ebc352554c03f49d "pdflatex"
+  "proposal.out" 1758486024 660 c91b550151190c68e4ae1e8c955eae4f "pdflatex"
   "proposal.tex" 1758394080 2007 c94256055307ca211ae88a59ab56bf7d ""
-  "proposal.toc" 1758477548 414 1fb6363e20778074dcb54232dd780d56 "pdflatex"
+  "proposal.toc" 1758486024 414 1fb6363e20778074dcb54232dd780d56 "pdflatex"
   "svg-inkscape/BU_logo_svg-tex.pdf" 1757468705 5237 8fe893613332ea5c48f870c0be95c49a ""
   "svg-inkscape/BU_logo_svg-tex.pdf_tex" 1757468705 2086 60b5c18c6e0d3c0102bae446928b9111 ""
   (generated)
