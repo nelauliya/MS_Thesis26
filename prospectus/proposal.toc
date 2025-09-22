@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {3}Prior Work}{2}{section.3}%
 \contentsline {section}{\numberline {4}Research Approach}{2}{section.4}%
 \contentsline {section}{\numberline {5}Proposed Timeline}{2}{section.5}%
-\contentsline {section}{\numberline {6}References}{3}{section.6}%
+\contentsline {section}{\numberline {6}References}{4}{section.6}%

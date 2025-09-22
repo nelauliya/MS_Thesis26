@@ -25,11 +25,21 @@
 
 %--------------------------------------------------------------------------%
 %Utilities
+\usepackage[
+    backend=biber,
+    style=ieee,
+    sorting=none,
+    isbn=false,
+    url=false
+]{biblatex}
+\AtEveryBibitem{
+    \clearfield{note}
+}
+\addbibresource{6_references/references.bib}
 \usepackage{hyperref}
 \hypersetup{breaklinks=true,colorlinks=true,linkcolor=blue,urlcolor=magenta,citecolor=cyan} %Hyperref links settings
 \usepackage{lipsum} %Filler words
 \usepackage{comment}
-\usepackage{}
 %==========================================================================%
 %End Package declarations
 
@@ -57,9 +67,11 @@
 
 \section{Proposed Timeline}
 \input{5_timeline/timeline}
-%\cleardoublepage
+\cleardoublepage
 
 \section{References}
+\nocite{*}
+\printbibliography[heading=none]
 %Add references/bibliography
 
 %==========================================================================%

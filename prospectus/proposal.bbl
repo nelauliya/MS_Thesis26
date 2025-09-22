@@ -1,0 +1,794 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{della_santina_model-based_2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=454430d03165d804c0ec65bdb8ef07bd}{%
+           family={Della\bibnamedelima Santina},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cosimo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cbacbbeb2589c5d86138c72b463d8bd7}{%
+           family={Duriez},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f74192f92945701041a41bfa429ee111}{%
+           family={Rus},
+           familyi={R\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{68db2a46665566e9c75fcae0d2b86769}
+      \strng{fullhash}{68db2a46665566e9c75fcae0d2b86769}
+      \strng{bibnamehash}{68db2a46665566e9c75fcae0d2b86769}
+      \strng{authorbibnamehash}{68db2a46665566e9c75fcae0d2b86769}
+      \strng{authornamehash}{68db2a46665566e9c75fcae0d2b86769}
+      \strng{authorfullhash}{68db2a46665566e9c75fcae0d2b86769}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{From a functional standpoint, classic robots are not at all similar to biological systems. If compared with rigid robots, animals’ bodies look overly redundant, imprecise, and weak. Nevertheless, animals can still perform a vast range of activities with unmatched effectiveness. Many studies in biomechanics have pointed to the elastic and compliant nature of the musculoskeletal system as a fundamental ingredient explaining this gap. Thus, to reach performance comparable to nature, elastic elements have been introduced in rigid-bodied robots, leading to articulated soft robotics [1] (see “Summary”). In continuum soft robotics, this concept is brought to an extreme. Here, softness is not concentrated at the joint level but instead distributed across the whole structure. As a result, soft robots (henceforth, omitting the adjective continuum) are entirely made of continuously deformable elements. This design solution aims to bring robots closer to invertebrate animals and the soft appendices of vertebrate animals (for example, an elephant’s trunk and the tail of a monkey). Several soft robotic hardware platforms have been proposed with increasingly higher reliability and functionalities. In this process, considerable attention has been devoted to the technological side of the problem, leading to a large assortment of hardware solutions. In turn, this abundance opened up the challenge of developing effective control strategies that can manage the soft body and exploit its embodied intelligence.}
+      \field{issn}{1941-000X}
+      \field{journaltitle}{{IEEE} Control Systems Magazine}
+      \field{month}{6}
+      \field{number}{3}
+      \field{shorttitle}{Model-Based Control of Soft Robots}
+      \field{title}{Model-Based Control of Soft Robots: A Survey of the State of the Art and Open Challenges}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{30\bibrangedash 65}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1109/MCS.2023.3253419
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/HBFXFG4D/Della Santina et al. - 2023 - Model-Based Control of Soft Robots A Survey of th.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10136424
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10136424
+      \endverb
+      \keyw{Literature Review,Model-based Controls,Topic Background}
+    \endentry
+    \entry{brunke_safe_2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=b6406a5779057c000c651a0c4084f77d}{%
+           family={Brunke},
+           familyi={B\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b943aecd33aabc48fa0be3c3b95f79be}{%
+           family={Greeff},
+           familyi={G\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=00fb963b47a7799ab4ecd67b30f52e84}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Adam\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=59d26c14aeb6aec9dae88629ec48d6d4}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Zhaocong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4bb7319672063347b8fca5521db03788}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Siqi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8e74542c04eea3f83f736a0289303288}{%
+           family={Panerati},
+           familyi={P\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f84c642b8b17f55dce44eaa4eabb0dc3}{%
+           family={Schoellig},
+           familyi={S\bibinitperiod},
+           given={Angela\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{01b4c6af3891f4dca69d4b41f7647f7f}
+      \strng{fullhash}{56b840fb2b857067c5cd7c1138f639c2}
+      \strng{bibnamehash}{01b4c6af3891f4dca69d4b41f7647f7f}
+      \strng{authorbibnamehash}{01b4c6af3891f4dca69d4b41f7647f7f}
+      \strng{authornamehash}{01b4c6af3891f4dca69d4b41f7647f7f}
+      \strng{authorfullhash}{56b840fb2b857067c5cd7c1138f639c2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The last half decade has seen a steep rise in the number of contributions on safe learning methods for real-world robotic deployments from both the control and reinforcement learning communities. This article provides a concise but holistic review of the recent advances made in using machine learning to achieve safe decision-making under uncertainties, with a focus on unifying the language and frameworks used in control theory and reinforcement learning research. It includes learning-based control approaches that safely improve performance by learning the uncertain dynamics, reinforcement learning approaches that encourage safety or robustness, and methods that can formally certify the safety of a learned control policy. As data- and learning-based robot control methods continue to gain traction, researchers must understand when and how to best leverage them in real-world scenarios where safety is imperative, such as when operating in close proximityto humans. We highlight some of the open challenges that will drive the field of robot learning in the coming years, and emphasize the need for realistic physics-based benchmarks to facilitate fair comparisons between control and reinforcement learning approaches.}
+      \field{day}{3}
+      \field{issn}{2573-5144}
+      \field{issue}{Volume 5, 2022}
+      \field{journaltitle}{Annual Review of Control, Robotics, and Autonomous Systems}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{note}{Publisher: Annual Reviews}
+      \field{shorttitle}{Safe Learning in Robotics}
+      \field{title}{Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{411\bibrangedash 444}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1146/annurev-control-042920-020211
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/nashr/Zotero/storage/VKZKPEK8/Brunke et al. - 2022 - Safe Learning in Robotics From Learning-Based Control to Safe Reinforcement Learning.pdf:application/pdf;Snapshot:/home/nashr/Zotero/storage/WQZH97AB/annurev-control-042920-020211.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev-control-042920-020211
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev-control-042920-020211
+      \endverb
+      \keyw{Literature Review,Model-free Controls,Topic Background}
+    \endentry
+    \entry{rakhmatillaev_integrative_2025}{article}{}
+      \name{author}{3}{}{%
+        {{hash=61279c016887785babdca3a6d530570b}{%
+           family={Rakhmatillaev},
+           familyi={R\bibinitperiod},
+           given={Javlonbek},
+           giveni={J\bibinitperiod}}}%
+        {{hash=53b89b83788c97226abc3658bb16ceac}{%
+           family={Bucinskas},
+           familyi={B\bibinitperiod},
+           given={Vytautas},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8231fae2e8be17c66d29db757c61d67a}{%
+           family={Kabulov},
+           familyi={K\bibinitperiod},
+           given={Nozimjon},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c5e6723e10facb3f95d5817b05e4aac}
+      \strng{fullhash}{0c5e6723e10facb3f95d5817b05e4aac}
+      \strng{bibnamehash}{0c5e6723e10facb3f95d5817b05e4aac}
+      \strng{authorbibnamehash}{0c5e6723e10facb3f95d5817b05e4aac}
+      \strng{authornamehash}{0c5e6723e10facb3f95d5817b05e4aac}
+      \strng{authorfullhash}{0c5e6723e10facb3f95d5817b05e4aac}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an integrative review of control strategies in robotics, covering classical control methods (linear quadratic regulator, proportional-integral-derivative), modern methods (adaptive, sliding mode, model predictive, and H-infinity), intelligent control methods (neural network, fuzzy logic, and machine learning), and hybrid control methods (integration of classical, modern, and intelligent control methods) to identify the advantages, limitations and gaps for future. A brief comparison of control methods between the types of control strategies is conducted with respect to robustness, stability, and complexity of implementation on 3 different levels of evaluation criteria: high, average, and low; advantages; limitations; and robotic applications, including examples. This paper discusses the theoretical and practical advancements and the classification of control strategies according to controller types (linear, nonlinear, and learning-based), approaches (model-based and model-free), and classifications (centralized, decentralized, and modal control). The review highlights the strengths, limitations, and potential research directions in bridging classical, modern, intelligent, and hybrid control paradigms to achieve safe, efficient, and adaptive robotic behavior in complex, uncertain environments. We discuss the future direction: autonomy, human-robot collaboration, and enhanced learning and challenges: cost, reliability, safety of control strategies, concluding with recommendations for future research.}
+      \field{day}{10}
+      \field{issn}{2669-2473}
+      \field{journaltitle}{Robotic Systems and Applications}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{Publisher: Extrica}
+      \field{title}{An integrative review of control strategies in robotics}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.21595/rsa.2025.25014
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/K92VBHCZ/Rakhmatillaev et al. - 2025 - An integrative review of control strategies in robotics.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.extrica.com/article/25014
+      \endverb
+      \verb{url}
+      \verb https://www.extrica.com/article/25014
+      \endverb
+      \keyw{Literature Review,Topic Background}
+    \endentry
+    \entry{della_santina_model-based_2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=454430d03165d804c0ec65bdb8ef07bd}{%
+           family={Della\bibnamedelima Santina},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cosimo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3540b3f631617c58436e086f8f64682b}{%
+           family={Katzschmann},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima K},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=cc43c52cecb0f037579498ca80c711a1}{%
+           family={Bicchi},
+           familyi={B\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f74192f92945701041a41bfa429ee111}{%
+           family={Rus},
+           familyi={R\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{49d6e5924aabe8943c8d18defceb685e}
+      \strng{fullhash}{33390731a32422abf6040ae995983d38}
+      \strng{bibnamehash}{33390731a32422abf6040ae995983d38}
+      \strng{authorbibnamehash}{33390731a32422abf6040ae995983d38}
+      \strng{authornamehash}{49d6e5924aabe8943c8d18defceb685e}
+      \strng{authorfullhash}{33390731a32422abf6040ae995983d38}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Leveraging the elastic bodies of soft robots promises to enable the execution of dynamic motions as well as compliant and safe interaction with an unstructured environment. However, the exploitation of these abilities is constrained by the lack of appropriate control strategies. This work tackles for the first time the development of closed-loop dynamic controllers for a continuous soft robot. We present two architectures designed for dynamic trajectory tracking and surface following, respectively. Both controllers are designed to preserve the natural softness of the robot and adapt to interactions with an unstructured environment. The validity of the controllers is proven analytically within the hypotheses of the model. The controllers are evaluated through an extensive series of simulations, and through experiments on a physical soft robot capable of planar motions.}
+      \field{day}{1}
+      \field{issn}{0278-3649}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{month}{3}
+      \field{number}{4}
+      \field{shorttitle}{Model-based dynamic feedback control of a planar soft robot}
+      \field{title}{Model-based dynamic feedback control of a planar soft robot: trajectory tracking and interaction with the environment}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{39}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{490\bibrangedash 513}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1177/0278364919897292
+      \endverb
+      \verb{file}
+      \verb SAGE PDF Full Text:/home/nashr/Zotero/storage/3FZX7HK4/Della Santina et al. - 2020 - Model-based dynamic feedback control of a planar s.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0278364919897292
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0278364919897292
+      \endverb
+    \endentry
+    \entry{katzschmann_dynamic_2019}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=3540b3f631617c58436e086f8f64682b}{%
+           family={Katzschmann},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2ebd7130f46d8487e8b74b6971b3e2cf}{%
+           family={Santina},
+           familyi={S\bibinitperiod},
+           given={Cosimo\bibnamedelima Della},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=77f163d8d5a2d6e5aba32af354cecfb9}{%
+           family={Toshimitsu},
+           familyi={T\bibinitperiod},
+           given={Yasunori},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=cc43c52cecb0f037579498ca80c711a1}{%
+           family={Bicchi},
+           familyi={B\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f74192f92945701041a41bfa429ee111}{%
+           family={Rus},
+           familyi={R\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e568ed32d76878cb62f7f8c9a30de054}
+      \strng{fullhash}{1f02cde68390df29fa2c0e028146ec0f}
+      \strng{bibnamehash}{1f02cde68390df29fa2c0e028146ec0f}
+      \strng{authorbibnamehash}{1f02cde68390df29fa2c0e028146ec0f}
+      \strng{authornamehash}{e568ed32d76878cb62f7f8c9a30de054}
+      \strng{authorfullhash}{1f02cde68390df29fa2c0e028146ec0f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite the emergence of many soft-bodied robotic systems, model-based feedback control for soft robots has remained an open challenge. This is largely due to the intrinsic difficulties in designing controllers for systems with infinite dimensions. This work extends our previously proposed formulation for the dynamics of a soft robot from two to three dimensions. The formulation connects the soft robot's dynamic behavior to a rigid-bodied robot with parallel elastic actuation. The matching between the two systems is exact under the hypothesis of Piecewise Constant Curvature. Based on this connection, we introduce a control architecture with the aim of achieving accurate curvature and bending control. This controller accounts for the natural softness of the system moving in three dimensions, and for the dynamic forces acting on the system. The controller is validated in a realistic simulation, together with a kinematic inversion algorithm. The paper also introduces a soft robot capable of three-dimensional motion, that we use to experimentally validate our control strategy.}
+      \field{booktitle}{2019 2nd {IEEE} International Conference on Soft Robotics ({RoboSoft})}
+      \field{eventtitle}{2019 2nd {IEEE} International Conference on Soft Robotics ({RoboSoft})}
+      \field{month}{4}
+      \field{title}{Dynamic Motion Control of Multi-Segment Soft Robots Using Piecewise Constant Curvature Matched with an Augmented Rigid Body Model}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{454\bibrangedash 461}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ROBOSOFT.2019.8722799
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/J97SX9GK/Katzschmann et al. - 2019 - Dynamic Motion Control of Multi-Segment Soft Robots Using Piecewise Constant Curvature Matched with.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8722799
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8722799
+      \endverb
+    \endentry
+    \entry{della_santina_improved_2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=454430d03165d804c0ec65bdb8ef07bd}{%
+           family={Della\bibnamedelima Santina},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cosimo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cc43c52cecb0f037579498ca80c711a1}{%
+           family={Bicchi},
+           familyi={B\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f74192f92945701041a41bfa429ee111}{%
+           family={Rus},
+           familyi={R\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7237c7841967ad44fe35e49cd0d0c720}
+      \strng{fullhash}{7237c7841967ad44fe35e49cd0d0c720}
+      \strng{bibnamehash}{7237c7841967ad44fe35e49cd0d0c720}
+      \strng{authorbibnamehash}{7237c7841967ad44fe35e49cd0d0c720}
+      \strng{authornamehash}{7237c7841967ad44fe35e49cd0d0c720}
+      \strng{authorfullhash}{7237c7841967ad44fe35e49cd0d0c720}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Piecewise constant curvature models have proven to be an useful tool for describing kinematics and dynamics of soft robots. However, in their three dimensional formulation they suffer from many issues limiting their range of applicability - as discontinuities and singularities - mainly concerning the straight configuration of the robot. In this work we analyze these flaws, and we show that they are not due to the piecewise constant curvature assumption itself, but that instead they are a byproduct of the commonly employed direction/angle of bending parametrization of the state. We therefore consider an alternative state representation which solves all the discussed issues, and we derive a model based controller based on it. Examples in simulation are provided to support and describe the theoretical results. When using the novel parametrization, the system is able to perform more complex tasks, with a strongly reduced computational burden, and without incurring in spikes and discontinuous behaviors.}
+      \field{issn}{2377-3766}
+      \field{journaltitle}{{IEEE} Robotics and Automation Letters}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{On an Improved State Parametrization for Soft Robots With Piecewise Constant Curvature and Its Use in Model Based Control}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1001\bibrangedash 1008}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/LRA.2020.2967269
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/TPAF8GXV/Della Santina et al. - 2020 - On an Improved State Parametrization for Soft Robo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8961972
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8961972
+      \endverb
+    \endentry
+    \entry{renda_discrete_2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=04ff9713b5f311e8b1aa18896451b2d9}{%
+           family={Renda},
+           familyi={R\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=013b3f4c436cbe369bc075cc36e535f2}{%
+           family={Boyer},
+           familyi={B\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2043b69c7dd389d1347d8b7be6ad5665}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6caee5feb99db05c9ec21f222d683608}{%
+           family={Seneviratne},
+           familyi={S\bibinitperiod},
+           given={Lakmal},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f6aad788302110bbb3fb35879407f39}
+      \strng{fullhash}{6243c242466dc4e314e97fc11e9d6a20}
+      \strng{bibnamehash}{6243c242466dc4e314e97fc11e9d6a20}
+      \strng{authorbibnamehash}{6243c242466dc4e314e97fc11e9d6a20}
+      \strng{authornamehash}{8f6aad788302110bbb3fb35879407f39}
+      \strng{authorfullhash}{6243c242466dc4e314e97fc11e9d6a20}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nowadays, the most adopted model for the design and control of soft robots is the piecewise constant curvature model, with its consolidated benefits and drawbacks. In this work, an alternative model for multisection soft manipulator dynamics is presented based on a discrete Cosserat approach, in which the continuous Cosserat model is discretized by assuming a piecewise constant strain along the soft arm. As a consequence, the soft manipulator state is described by a finite set of constant strains. This approach has several advantages with respect to the existing models. First, it takes into account shear and torsional deformations, which are both essential to cope with out-of-plane external loads. Furthermore, it inherits desirable geometrical and mechanical properties of the continuous Cosserat model, such as intrinsic parameterization and greater generality. Finally, this approach allows to extend to soft manipulators, the recursive composite-rigid-body and articulated-body algorithms, whose performances are compared through a cantilever beam simulation. The soundness of the model is demonstrated through extensive simulation and experimental results.}
+      \field{issn}{1941-0468}
+      \field{journaltitle}{{IEEE} Transactions on Robotics}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Discrete Cosserat Approach for Multisection Soft Manipulator Dynamics}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{34}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1518\bibrangedash 1533}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TRO.2018.2868815
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/8XF5TYIW/Renda et al. - 2018 - Discrete Cosserat Approach for Multisection Soft Manipulator Dynamics.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8500341
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8500341
+      \endverb
+    \endentry
+    \entry{dickson_safe_2025}{misc}{}
+      \name{author}{9}{}{%
+        {{hash=b6e39cf9ca8d07291ba324195a3cccf3}{%
+           family={Dickson},
+           familyi={D\bibinitperiod},
+           given={Akua\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2312c201f114eb6da4adcd18199fa582}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Juan\bibnamedelimb C.\bibnamedelimi Pacheco},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f9ec5e5a1f8019bbf3c0f470cdbee427}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Meredith\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=c3b3857c3b1782571d5e1063f80172eb}{%
+           family={Jing},
+           familyi={J\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod}}}%
+        {{hash=03651456ac98f6eba52513214f4fabfd}{%
+           family={Alizadeh-Shabdiz},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd8400ed428a9472eb8aad0adf86d9be}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Audrey\bibnamedelima X.},
+           giveni={A\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=260b9169b58679dc4b31a337b53c9520}{%
+           family={{DeLorey}},
+           familyi={D\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3e08f7aebc0c457863906299c9d706eb}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Zach\bibnamedelima J.},
+           giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=07378110779c13715a2f78295bdadb74}{%
+           family={Sabelhaus},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{335422202806768209f4ffc0bfbe218e}
+      \strng{fullhash}{639a2a06035e73275e13ed38a2c9cf20}
+      \strng{bibnamehash}{335422202806768209f4ffc0bfbe218e}
+      \strng{authorbibnamehash}{335422202806768209f4ffc0bfbe218e}
+      \strng{authornamehash}{335422202806768209f4ffc0bfbe218e}
+      \strng{authorfullhash}{639a2a06035e73275e13ed38a2c9cf20}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Robots built from soft materials will inherently apply lower environmental forces than their rigid counterparts, and therefore may be more suitable in sensitive settings with unintended contact. However, these robots' applied forces result from both their design and their control system in closed-loop, and therefore, ensuring bounds on these forces requires controller synthesis for safety as well. This article introduces the first feedback controller for a soft manipulator that formally meets a safety specification with respect to environmental contact. In our proof-of-concept setting, the robot's environment has known geometry and is deformable with a known elastic modulus. Our approach maps a bound on applied forces to a safe set of positions of the robot's tip via predicted deformations of the environment. Then, a quadratic program with Control Barrier Functions in its constraints is used to supervise a nominal feedback signal, verifiably maintaining the robot's tip within this safe set. Hardware experiments on a multi-segment soft pneumatic robot demonstrate that the proposed framework successfully constrains its environmental contact forces. This framework represents a fundamental shift in perspective on control and safety for soft robots, defining and implementing a formally verifiable logic specification on their pose and contact forces.}
+      \field{day}{20}
+      \field{eprinttype}{arxiv}
+      \field{month}{4}
+      \field{number}{{arXiv}:2504.14755}
+      \field{title}{Safe Autonomous Environmental Contact for Soft Robots using Control Barrier Functions}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2504.14755
+      \endverb
+      \verb{eprint}
+      \verb 2504.14755 [cs]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/home/nashr/Zotero/storage/VM96GWGZ/Dickson et al. - 2025 - Safe Autonomous Environmental Contact for Soft Rob.pdf:application/pdf;Snapshot:/home/nashr/Zotero/storage/7M9WCHEZ/Dickson et al. - 2025 - Safe Autonomous Environmental Contact for Soft Rob.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2504.14755
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2504.14755
+      \endverb
+    \endentry
+    \entry{dickson_real-time_2025}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=266293b6f82d4b728b7957df84852452}{%
+           family={Dickson},
+           familyi={D\bibinitperiod},
+           given={Akua},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2312c201f114eb6da4adcd18199fa582}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Juan\bibnamedelimb C.\bibnamedelimi Pacheco},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c3b3857c3b1782571d5e1063f80172eb}{%
+           family={Jing},
+           familyi={J\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f9ec5e5a1f8019bbf3c0f470cdbee427}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Meredith\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=07378110779c13715a2f78295bdadb74}{%
+           family={Sabelhaus},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{46f9ea53dfd180810eb1fb118bddec04}
+      \strng{fullhash}{45cdc55ef4d9573f7f3a31ed31558e01}
+      \strng{bibnamehash}{45cdc55ef4d9573f7f3a31ed31558e01}
+      \strng{authorbibnamehash}{45cdc55ef4d9573f7f3a31ed31558e01}
+      \strng{authornamehash}{46f9ea53dfd180810eb1fb118bddec04}
+      \strng{authorfullhash}{45cdc55ef4d9573f7f3a31ed31558e01}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Soft robots have the potential to interact with sensitive environments and perform complex tasks effectively. However, motion plans and trajectories for soft manipulators are challenging to calculate due to their deformable nature and nonlinear dynamics. This article introduces a fast real-time trajectory generation approach for soft robot manipulators, which creates dynamically-feasible motions for arbitrary kinematically-feasible paths of the robot’s end effector. Our insight is that piecewise constant curvature ({PCC}) dynamics models of soft robots can be differentially flat, therefore control inputs can be calculated algebraically rather than through a nonlinear differential equation. We prove this flatness under certain conditions, with the curvatures of the robot as the flat outputs. Our two-step trajectory generation approach uses an inverse kinematics procedure to calculate a motion plan of robot curvatures per end-effector position, then, our flatness diffeomorphism generates corresponding control inputs that respect velocity. We validate our approach through simulations of our representative soft robot manipulator along three different trajectories, demonstrating a margin of 23x faster than real-time at a frequency of 100 Hz. This approach could allow fast verifiable replanning of soft robots’ motions in safety-critical physical environments, crucial for deployment in the real world.}
+      \field{booktitle}{2025 {IEEE} 8th International Conference on Soft Robotics ({RoboSoft})}
+      \field{eventtitle}{2025 {IEEE} 8th International Conference on Soft Robotics ({RoboSoft})}
+      \field{month}{4}
+      \field{note}{{ISSN}: 2769-4534}
+      \field{title}{Real-Time Trajectory Generation for Soft Robot Manipulators Using Differential Flatness}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/RoboSoft63089.2025.11020810
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/PNW26VDI/Dickson et al. - 2025 - Real-Time Trajectory Generation for Soft Robot Man.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/11020810
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/11020810
+      \endverb
+    \endentry
+    \entry{zhang_model-based_2020}{online}{}
+      \name{author}{2}{}{%
+        {{hash=634198fae1ed644d7627f45531c5c436}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Bowei},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4bd18b42acd208a8f27695eac103c034}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Pengcheng},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e1b24390c2e18140575f45a458c4efc}
+      \strng{fullhash}{4e1b24390c2e18140575f45a458c4efc}
+      \strng{bibnamehash}{4e1b24390c2e18140575f45a458c4efc}
+      \strng{authorbibnamehash}{4e1b24390c2e18140575f45a458c4efc}
+      \strng{authornamehash}{4e1b24390c2e18140575f45a458c4efc}
+      \strng{authorfullhash}{4e1b24390c2e18140575f45a458c4efc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Robot control is one of the key aspects of robotics research. Models are essential tools in robotics, such as the robot’s own body dynamics and kinematics models, actuator/motor models, and the models of external controllable objects. In this paper, we review the latest advances in model-based and model-free ap-proaches with a strong focus on robot control. Based on the designed search strategy, several prevailing control approaches are classified and discussed ac-cording to their control strategies. An insight into the gripper control is also explored. Then the research problems and applicability of the control methods are discussed by investigating their merits and demerits. Based on the discussion, we summarize the challenges and future research trends of robot control.}
+      \field{day}{15}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{note}{Conference Name: The 8th International Conference on Robot Intelligence Technology and Applications Meeting Name: The 8th International Conference on Robot Intelligence Technology and Applications Place: {GBR} Publisher: {IEEE}}
+      \field{shorttitle}{Model-based and Model-Free Robot Control}
+      \field{title}{Model-based and Model-Free Robot Control:A Review}
+      \field{titleaddon}{8th International Conference on Robot Intelligence Technology and Applications (proceedings)}
+      \field{type}{Proceedings Paper}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/G4MZ4KNM/Zhang and Liu - 2020 - Model-based and Model-Free Robot ControlA Review.pdf:application/pdf;Snapshot:/home/nashr/Zotero/storage/75SJ6V53/168145.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://eprints.whiterose.ac.uk/id/eprint/168145/
+      \endverb
+      \verb{url}
+      \verb https://eprints.whiterose.ac.uk/id/eprint/168145/
+      \endverb
+      \keyw{Literature Review,Model-based Controls,Model-free Controls,Topic Background}
+    \endentry
+    \entry{wong_contact-aware_2025}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=b9d671fe50552a2f5571e0eead2a2de3}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Kiwan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5fdfec48afa8ffff78b36f7fb49be65d}{%
+           family={Stölzle},
+           familyi={S\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e276ae26977a9b2e37343fd9ee050e70}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2ebd7130f46d8487e8b74b6971b3e2cf}{%
+           family={Santina},
+           familyi={S\bibinitperiod},
+           given={Cosimo\bibnamedelima Della},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f74192f92945701041a41bfa429ee111}{%
+           family={Rus},
+           familyi={R\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=53239ef5ffc5c26ae5e08d7f7b9fad78}{%
+           family={Zardini},
+           familyi={Z\bibinitperiod},
+           given={Gioele},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{e36ee13565044b00a6e4393245eee7c0}
+      \strng{fullhash}{c4519d67cd1c0785cb2f9ab3b83fd03b}
+      \strng{bibnamehash}{c4519d67cd1c0785cb2f9ab3b83fd03b}
+      \strng{authorbibnamehash}{c4519d67cd1c0785cb2f9ab3b83fd03b}
+      \strng{authornamehash}{e36ee13565044b00a6e4393245eee7c0}
+      \strng{authorfullhash}{c4519d67cd1c0785cb2f9ab3b83fd03b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Robots operating alongside people, particularly in sensitive scenarios such as aiding the elderly with daily tasks or collaborating with workers in manufacturing, must guarantee safety and cultivate user trust. Continuum soft manipulators promise safety through material compliance, but as designs evolve for greater precision, payload capacity, and speed, and increasingly incorporate rigid elements, their injury risk resurfaces. In this letter, we introduce a comprehensive High-Order Control Barrier Function ({HOCBF}) + High-Order Control Lyapunov Function ({HOCLF}) framework that enforces strict contact force limits across the entire soft-robot body during environmental interactions. Our approach combines a differentiable Piecewise Cosserat-Segment ({PCS}) dynamics model with a convex-polygon distance approximation metric, named Differentiable Conservative Separating Axis Theorem ({DCSAT}), based on the soft robot geometry to enable real-time, whole-body collision detection, resolution, and enforcement of the safety constraints. By embedding {HOCBFs} into our optimization routine, we guarantee safety and actively regulate environmental coupling, allowing, for instance, safe object manipulation under {HOCLF}-driven motion objectives. Extensive planar simulations demonstrate that our method maintains safety-bounded contacts while achieving precise shape and task-space regulation. This work thus lays a foundation for the deployment of soft robots in human-centric environments with provable safety and performance.}
+      \field{day}{5}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{{arXiv}:2505.03841}
+      \field{title}{Contact-Aware Safety in Soft Robots Using High-Order Control Barrier and Lyapunov Functions}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/arXiv.2505.03841
+      \endverb
+      \verb{eprint}
+      \verb 2505.03841 [cs]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/home/nashr/Zotero/storage/ZGSWWJ42/Wong et al. - 2025 - Contact-Aware Safety in Soft Robots Using High-Order Control Barrier and Lyapunov Functions.pdf:application/pdf;Snapshot:/home/nashr/Zotero/storage/3XFA4U4G/2505.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2505.03841
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2505.03841
+      \endverb
+    \endentry
+    \entry{santina_control_2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2ebd7130f46d8487e8b74b6971b3e2cf}{%
+           family={Santina},
+           familyi={S\bibinitperiod},
+           given={Cosimo\bibnamedelima Della},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f74192f92945701041a41bfa429ee111}{%
+           family={Rus},
+           familyi={R\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d495b778cc5efced7a3badb809e199df}
+      \strng{fullhash}{d495b778cc5efced7a3badb809e199df}
+      \strng{bibnamehash}{d495b778cc5efced7a3badb809e199df}
+      \strng{authorbibnamehash}{d495b778cc5efced7a3badb809e199df}
+      \strng{authornamehash}{d495b778cc5efced7a3badb809e199df}
+      \strng{authorfullhash}{d495b778cc5efced7a3badb809e199df}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The complex nature of soft robot dynamics calls for the development of models specifically tailored on the control application. In this letter, we take a first step in this direction by proposing a dynamic model for slender soft robots, taking into account the fully infinite-dimensional dynamical structure of the system. We also contextually introduce a strategy to approximate this model at any level of detail through a finite dimensional system. First, we analyze the main mathematical properties of this model in the case of lightweight and non lightweight soft robots. Then, we prove that using the constant term of curvature as control output produces a minimum phase system, in this way providing the theoretical support that existing curvature control techniques lack, and at the same time opening up to the use of advanced nonlinear control techniques. Finally, we propose a new controller, i.e., the {PD}-poly, which exploits information on high order deformations, to achieve zero steady state regulation error in presence of gravity and generic nonconstant curvature conditions.}
+      \field{issn}{2377-3766}
+      \field{journaltitle}{{IEEE} Robotics and Automation Letters}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shorttitle}{Control Oriented Modeling of Soft Robots}
+      \field{title}{Control Oriented Modeling of Soft Robots: The Polynomial Curvature Case}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{290\bibrangedash 298}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/LRA.2019.2955936
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nashr/Zotero/storage/RWGY39KJ/Santina and Rus - 2020 - Control Oriented Modeling of Soft Robots The Polynomial Curvature Case.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8913522
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8913522
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
