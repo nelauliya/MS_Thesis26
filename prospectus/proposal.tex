@@ -1,0 +1,78 @@
+%%% TO-DO LIST %%%
+%--------------------------------------------------------------------------%
+% Check with Juliana about double spacing
+% Check with Juliana about sample accepted prospecti
+
+%--------------------------------------------------------------------------%
+
+\documentclass[12pt,letterpaper]{article}          % Single-sided printing for the library
+%\documentclass[12pt,twoside]{article}             % Double-sided printing
+
+%Start Package declarations
+%==========================================================================%
+%Graphics
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{svg}
+%\usepackage{showframe}
+%--------------------------------------------------------------------------%
+%Formatting
+\usepackage{bold-extra}
+\usepackage{setspace}
+\usepackage{hanging} %hanging indents for bib
+%--------------------------------------------------------------------------%
+%Maths
+
+%--------------------------------------------------------------------------%
+%Utilities
+\usepackage[
+    backend=biber,
+    style=ieee,
+    sorting=none,
+    isbn=false,
+    url=false
+]{biblatex}
+\AtEveryBibitem{
+    \clearfield{note}
+}
+\addbibresource{6_references/references.bib}
+\usepackage{hyperref}
+\hypersetup{breaklinks=true,colorlinks=true,linkcolor=blue,urlcolor=magenta,citecolor=cyan} %Hyperref links settings
+\usepackage{lipsum} %Filler words
+\usepackage{comment}
+%==========================================================================%
+%End Package declarations
+
+\def\authorName{Nashr El Auliya}
+\def\thesisName{3-Dimensional Model-Based Dynamic Feedback Control for Soft Robots}
+
+\begin{document}
+%==========================================================================%
+\input{0_prelim/prelim}
+
+\section{Abstract}
+\input{1_abstract/abstract}
+%\cleardoublepage
+
+\section{Topic Background}
+\input{2_background/background}
+%\cleardoublepage
+
+\section{Prior Work}
+\input{3_prior/prior}
+%\cleardoublepage
+
+\section{Research Approach}
+\input{4_approach/approach}
+
+\section{Proposed Timeline}
+\input{5_timeline/timeline}
+\cleardoublepage
+
+\section{References}
+\nocite{*}
+\printbibliography[heading=none]
+%Add references/bibliography
+
+%==========================================================================%
+\end{document}
