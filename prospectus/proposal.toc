@@ -1,6 +1,0 @@
-\contentsline {section}{\numberline {1}Abstract}{1}{section.1}%
-\contentsline {section}{\numberline {2}Topic Background}{1}{section.2}%
-\contentsline {section}{\numberline {3}Prior Work}{2}{section.3}%
-\contentsline {section}{\numberline {4}Research Approach}{2}{section.4}%
-\contentsline {section}{\numberline {5}Proposed Timeline}{2}{section.5}%
-\contentsline {section}{\numberline {6}References}{4}{section.6}%
