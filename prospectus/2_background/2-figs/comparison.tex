@@ -1,0 +1,24 @@
+\begin{comment} 
+    Learning-based controllers have been known to achieve higher levels of performance with respect to more complex actions, typically at the cost of computational efficiency and/or formal guarantees of safety for the robot's behavior \cite{brunke_safe_2022}. Since the formulation of $\mathbf{g(x,u)}$ and $u_{\text{learned}}$ is handled by the learning medium, we are left without the ability to extract detailed functional information regarding either of them. 
+\end{comment}
+\begin{table}[h!]
+    \centering
+    \begin{tabularx}{\textwidth}{
+        >{\hsize=0.2\hsize\centering\arraybackslash}X|
+        >{\hsize=0.4\hsize\centering\arraybackslash}X|
+        >{\hsize=0.4\hsize\centering\arraybackslash}X
+        }
+        Analysis        & Model-Based & Learning-Based\\ \hline\hline
+        \raggedleft Advantages      & 
+        Meaningful information regarding the dynamics and inputs of the system are preserved &
+        Known to achieve higher maneuvering performance and better robustness\newline
+        \cite{rakhmatillaev_integrative_2025}\\ \hline
+        \raggedleft Disadvantages   &
+        Less robust and adaptable at handling system configurations in fringe scenarios\newline
+        \cite{rakhmatillaev_integrative_2025}, \cite{brunke_safe_2022} &
+        More complex and typically lacks formal guarantees of safety\newline
+        \cite{brunke_safe_2022}\\
+    \end{tabularx}
+    \caption{An assessment of Model- and Learning-Based controls.}
+    \label{comparison}
+\end{table}

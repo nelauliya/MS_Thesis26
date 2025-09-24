@@ -1,0 +1,22 @@
+\begin{table}[h!]
+    \centering
+    \begin{tabularx}{0.8\textwidth}{|*{2}{>{\centering\arraybackslash}X|}}
+        \hline
+        Model-based & Learning-based \\
+        \hline
+        \rule{0pt}{3em}
+        $\begin{aligned}
+            \mathbf{\dot{x}} &= \mathbf{Ax + Bu}\\
+             &= \mathbf{\bar{f}(x,u)}\\
+             \text{where, } & \mathbf{u} = f(\mathbf{x,e,t,...})
+        \end{aligned}$ &
+        $\begin{aligned}
+            \mathbf{\dot{x}} &= \mathbf{\bar{f}(x,u_{\text{learned}})}\\
+            & \text{or}\\
+            \mathbf{\dot{x}} &= \mathbf{g(x,u)}
+        \end{aligned}$\\
+        \hline
+    \end{tabularx}
+    \caption{High-level generalization of model- vs. learning-based controllers.}
+    \label{modelvslearn}
+\end{table}

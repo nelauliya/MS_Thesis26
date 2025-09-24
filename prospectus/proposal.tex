@@ -14,15 +14,25 @@
 \usepackage{graphics}
 \usepackage{graphicx}
 \usepackage{svg}
+\usepackage{tikz}
+\usepackage{blox}
 %\usepackage{showframe}
 %--------------------------------------------------------------------------%
 %Formatting
 \usepackage{bold-extra}
 \usepackage{setspace}
 \usepackage{hanging} %hanging indents for bib
+\usepackage{microtype}  %micro typographic extensions, for bib(?)
+                        %^ pkg. somehow got rid of bib hyphenation issues?!?
+\usepackage{tabularx}
+\usepackage{array}
+\renewcommand\arraystretch{1.2}
+\usepackage[autostyle=true,english=american]{csquotes} %Formatting for quotation marks
+\MakeOuterQuote{"}
+\usepackage{float}
 %--------------------------------------------------------------------------%
 %Maths
-
+\usepackage{amsmath}
 %--------------------------------------------------------------------------%
 %Utilities
 \usepackage[
@@ -40,6 +50,9 @@
 \hypersetup{breaklinks=true,colorlinks=true,linkcolor=blue,urlcolor=magenta,citecolor=cyan} %Hyperref links settings
 \usepackage{lipsum} %Filler words
 \usepackage{comment}
+\usepackage{calc} %mix and match units
+\usepackage[english]{babel}  %language support
+\usepackage{comment}    %block comments!
 %==========================================================================%
 %End Package declarations
 
