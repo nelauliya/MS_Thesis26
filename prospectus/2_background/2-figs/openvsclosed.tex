@@ -1,27 +1,27 @@
 \begin{figure}[h!]
     \centering
     \begin{tikzpicture}
-        \bXInput[$\mathbf{r}$]{a}
-        \bXComp*{b}{a}{}{-}{+}{}
-        \bXLink{a}{b}
+        \bXInput[$\mathbf{r}$]{a};
+        \bXComp*{b}{a}{}{-}{+}{};
+        \bXLink{a}{b};
         \bXBlocL[3]{c}{
             $\mathbf{u}=f(...)$        
-        }{b}
-        \bXLinkName[0.7]{b-c}{$\mathbf{e}$}
-        \bXLinkName[2.5]{c}{Controller}
+        }{b};
+        \bXLinkName[0.7]{b-c}{$\mathbf{e}$};
+        \bXLinkName[2.5]{c}{Controller};
         \bXBlocL[3]{d}{
             $\mathbf{\dot{x}=Ax + Bu}$
-        }{c}
-        \bXLinkName[0.7]{c-d}{$\mathbf{u}$}
-        \bXLinkName[2.5]{d}{System}
-        \bXOutput[4]{e}{d}
-        \bXLink{d}{e}
-        \bXLinkName[0.7]{d-e}{$\mathbf{x}$}
-        \bXBranchy{d-e}{f}
-        \bXBlocr[8]{g}{Feedback}{f}
-        \bXLinkyx{d-e}{g}
-        \bXLinkxy{g}{b}
+        }{c};
+        \bXLinkName[0.7]{c-d}{$\mathbf{u}$};
+        \bXLinkName[2.5]{d}{System};
+        \bXOutput[4]{e}{d};
+        \bXLink{d}{e};
+        \bXLinkName[0.7]{d-e}{$\mathbf{x}$};
+        \bXBranchy{d-e}{f};
+        \bXBlocr[8]{g}{Feedback}{f};
+        \bXLinkyx{d-e}{g};
+        \bXLinkxy{g}{b};
     \end{tikzpicture}
-    \caption{A generic closed-loop system, the control input is a function of desired state $\mathbf{r}$ and output $\mathbf{x}$.}
+    \caption{A generic closed-loop system, the "System" block was illustrated in \autoref{openloop}.}
     \label{openvsclosed}
 \end{figure}

@@ -1,0 +1,31 @@
+\begin{figure}[h!]
+    \tikzstyle{block} = [draw, rectangle, 
+    minimum height=2em, minimum width=2em]
+    \tikzstyle{sum} = [draw, circle]
+    \tikzstyle{input} = [coordinate]
+    \tikzstyle{output} = [coordinate]
+    \tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+    \centering
+    \begin{tikzpicture}
+        \node[input,name=into] {};
+        \node[block, right=of into] (bmatrix) {$\mathbf{B}$};
+        \node[sum, right=of bmatrix, inner sep = 0.6em
+        ] (sum1) {};
+        \node[block, isosceles triangle, right=of sum1
+        ] (integ) {$\int$};
+        \node[block, below=of integ, 
+        ] (dynamic) {$\mathbf{A}$};
+        \node[output, name=out, right= 4em of integ] {};
+
+        \draw [->] (into) -- node[name=insig, pos=0.1, above] {$\mathbf{u}$} (bmatrix);
+        \draw [->] (integ) -- node[name=outof, above] {$\mathbf{x}$} (out);
+        \draw [->] (bmatrix) -- node[name=sum1a, pos=0.9, above] {$+$} (sum1);
+        \draw [->] (dynamic) -| node[name=sum1b, pos=0.9, left] {$+$} (sum1);
+        \draw [->] (sum1) -- node[name=insys, above] {$\mathbf{\dot{x}}$} (integ);
+        \draw [->] (outof) |- (dynamic);
+    \end{tikzpicture}
+    \caption{A generic steady-state dynamic system, with an input 
+    $\mathbf{u} \neq f(\mathbf{x})$
+    making it open-loop.}
+    \label{openloop}
+\end{figure}

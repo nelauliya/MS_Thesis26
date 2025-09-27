@@ -9,7 +9,8 @@ On the other hand, the development of control strategies for \textit{soft} robot
 %----------------------------------------%     
 %---------| 2. Model-based vs, learning-based; 
 \subsection{Model- vs. Learning-based Controls}
-Model- and learning-based controls differ in the fundamental methodology that underpin \textit{how} each approach steers their dynamic systems. Consider some steady-state open-loop dynamic system expressed in state space as $\mathbf{\dot{x}}=\mathbf{f}(\mathbf{x})$, the application of a model- and learning-based controller--respectively--to the system may be represented according to \autoref{modelvslearn}.
+\input{2_background/2-figs/openloop.tex}
+Model- and learning-based controls differ in the fundamental methodology that underpin \textit{how} each approach steers their dynamic systems. Consider the steady-state open-loop dynamic system expressed in state space as $\mathbf{\dot{x}}=\mathbf{f}(\mathbf{x})$ from \autoref{openloop}, the application of a model- and learning-based controller--respectively--to the system may be represented according to \autoref{modelvslearn}.
 
 \input{2_background/2-figs/modelvslearn.tex}
 
@@ -25,20 +26,4 @@ Formulating models that allow the input to be solved in a mathematically managab
 \input{2_background/2-figs/comparison.tex}
 
 A general assessment of the benefits and drawbacks between the two approaches is presented in \autoref{comparison}. While both approaches bring different things to the table--and extensive research continue to be conducted on both, the author has decided to explore the model-based approach for this proposed thesis.
-%----------------------------------------%  
-%---------| 3. Brief overview/lit. review of contemporary models
-\subsection{Some "Control-Oriented" Models}
-It was mentioned earlier that in the formulation of the dynamical model to develop a controller around, towing the balance between mathematical simplicity and physical accuracy is one of the major challenges in model-based controls. While this continues to be true, continuum dynamics-compatible FDM techniques has also indeed broken considerable ground with regards to this issue. In their exact formulation, the dynamics of a soft robot is effectively an infinite-dimensional system. Such a system cannot be described without the use of partial differential equations (PDEs). However, by applying the appropriate assumptions, approximations, and/or discretization to the dynamical model of the soft robot, the system's description may be reliably "minimized" into a \textit{finite}-dimensional system that can be described with ordinary differential equations (ODEs) instead.
-
-One of the most widely-implemented family of FDM techniques is the Piecewise Constant Strain (PCS) approximations (see \autoref{rodandpcs}). It is a family of discretization methods applied to a type of approximation for soft robot dynamics known as "rod models". It is extremely common for soft robots to be "thin" and/or "elongated": to have one physical dimension dominate the other two. In that regard, such soft robots may be approximated as a rod with the continuum mechanics of one too--hence rod models. At the heart of this methodology is the assumption that volumetric deformations may be neglected, and modeling the dynamics around the dominant central axis is sufficient \cite{della_santina_model-based_2023}.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.4\textwidth]{graphics/rodandpcs.png}
-    \caption{a) "Elongated" soft robots as described in rod models. b) PCS discretization applied to the rod model. Image taken from Della Santina et al. \cite{della_santina_model-based_2023}.}
-    \label{rodandpcs}
-\end{figure}
-
-Among the many implementations of PCS, the planar Piecewise Constant Curvature (PCC) model has been extensively used in soft robotics throughout the last decade. Its approximation of the robot as pieces of constant-curvature arcs linked together in series with mutually tangent connection points makes the kinematics and Jacobian formulation for the model \textit{closed}-form \cite{websteriii_design_2010}. A dynamic feedback controller using this model was developed in \cite{della_santina_model-based_2020}, with an implementation of a trajectory generator for the controller formulated in \cite{dickson_real-time_2025}. 
-
-There are many viable models out there that can be used as the basis for the controller that this proposed thesis seeks to develop, a selection of them that seems promising with respect to the scope of this proposed thesis will be outlined in this proposal.
+%----------------------------------------%
