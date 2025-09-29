@@ -1,22 +1,33 @@
-\begin{table}[h!]
+\def\sysDyTerms{
+    \underline{\dot{q}}=\mathbf{f}(\underline{q},\underline{u})
+}
+
+\begin{table}[!ht]
     \centering
-    \begin{tabularx}{0.8\textwidth}{|*{2}{>{\centering\arraybackslash}X|}}
+    \begin{tabularx}{0.9\textwidth}{|*{2}{>{\centering\arraybackslash}X|}}
         \hline
         Model-based & Learning-based \\
         \hline
-        \rule{0pt}{3em}
+        \raggedright Given \par 
+        \centering\arraybackslash $\begin{aligned}
+            \sysDyTerms & \xrightarrow[\text{for}]{\text{solve}} \underline{u}(\underline{q},\underline{\bar{q}},...)\\
+            \mathbf{f}(\underline{q},\underline{u}) & \rightarrow \mathbf{f}(\underline{q},\underline{u}(\underline{q},\underline{\bar{q}}))
+        \end{aligned}$ \par
+        \raggedright Such that \par 
+        \centering\arraybackslash $\underline{\dot{q}} \approx \underline{\bar{\dot{q}}}$ \par & 
+        \raggedright Given some dataset \par 
+        \centering\arraybackslash 
+            $X = \{(\underline{q_0},\underline{u_0}),\dots,(\underline{q_i},\underline{u_i})\}$ \par
         $\begin{aligned}
-            \mathbf{\dot{x}} &= \mathbf{Ax + Bu}\\
-             &= \mathbf{\bar{f}(x,u)}\\
-             \text{where, } & \mathbf{u} = f(\mathbf{x,e,t,...})
-        \end{aligned}$ &
-        $\begin{aligned}
-            \mathbf{\dot{x}} &= \mathbf{\bar{f}(x,u_{\text{learned}})}\\
-            & \text{or}\\
-            \mathbf{\dot{x}} &= \mathbf{g(x,u)}
-        \end{aligned}$\\
+            X & \xrightarrow[\text{from}]{\text{extract}} \underline{u}^{\text{learned}}
+        \end{aligned}$ \par
+        \raggedright Such that \par
+        \centering\arraybackslash
+            $\underline{\dot{q}} \approx \underline{\bar{\dot{q}}}$ \\
         \hline
     \end{tabularx}
-    \caption{High-level generalization of model- vs. learning-based controllers.}
+    \caption{High-level generalization of model- vs. learning-based controllers, where $\underline{\bar{\dot{q}}}$, $\underline{\bar{q}}$ describes the desired/reference configuration.}
     \label{modelvslearn}
 \end{table}
+
+% \raggedright\arraybackslash Where $\underline{\bar{\dot{q}}}$, $\underline{\bar{q}}$ describes the desired/reference configuration

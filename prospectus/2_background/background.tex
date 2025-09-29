@@ -9,19 +9,21 @@ On the other hand, the development of control strategies for \textit{soft} robot
 %----------------------------------------%     
 %---------| 2. Model-based vs, learning-based; 
 \subsection{Model- vs. Learning-based Controls} \label{modelvlearndef}
-\input{2_background/2-figs/openloop.tex}
-Model- and learning-based controls differ in the fundamental methodology that underpin \textit{how} each approach steers their dynamic systems. Consider the steady-state open-loop dynamic system expressed in state space as $\mathbf{\dot{x}}=\mathbf{f}(\mathbf{x})$ from \autoref{openloop}, the application of a model- and learning-based controller--respectively--to the system may be represented according to \autoref{modelvslearn}.
+% \input{2_background/2-figs/openloop.tex}
+Model- and learning-based controls differ in the fundamental methodology that underpin \textit{how} each approach steers their dynamic systems. Consider the soft robot whose dynamics is represented as $\underline{\dot{q}}=\mathbf{f}(\underline{q},\underline{u})$, where $\underline{q} = [q_1,q_2,...,q_n]^T \in \mathbb{R}^n$ is the state parametrization used to describe the robot's configuration in space and $\underline{u}$ is some input signal. The application of a model- and learning-based controller, respectively, to the system may be represented according to \autoref{modelvslearn}.
 
 \input{2_background/2-figs/modelvslearn.tex}
 
-The distinction between model- and learning-based control approaches may be described using the functional framework presented above. In both approaches, some input $\mathbf{u}$ is now introduced to the previously steady-state system. The system becomes \textit{closed}-loop when a controller that uses the system output to determine the control input is implemented (see \autoref{openvsclosed}). %<-- need diagram to help explain!
-In this scenario, $f(\mathbf{x,e,t,...})$ can be considered the controller. It functionally relates the system output/current state--and typically error $\mathbf{e}$ and time as well--to the control input. 
+\begin{comment}
+    The distinction between model- and learning-based control approaches may be described using the functional framework presented above. In both approaches, some input $\mathbf{u}$ is now introduced to the previously steady-state system. The system becomes \textit{closed}-loop when a controller that uses the system output to determine the control input is implemented (see \autoref{openvsclosed}). %<-- need diagram to help explain!
+    In this scenario, $f(\mathbf{x,e,t,...})$ can be considered the controller. It functionally relates the system output/current state--and typically error $\mathbf{e}$ and time as well--to the control input. 
+\end{comment}
 
-\input{2_background/2-figs/openvsclosed.tex}
+% \input{2_background/2-figs/openvsclosed.tex}
 
-For model-based controls, designing the controller based on the dynamics of the systems means tuning $\mathbf{u}$ to the $\mathbf{A}$ and $\mathbf{B}$ matrices. A conveniently acceptable way of interpreting $\mathbf{\bar{f}}$ is to regard $\mathbf{A}$ as the system's steady-state behavior, and $\mathbf{B}$ as the system's response to control inputs. The two matrices \textit{must} sufficiently describe the system dynamics before $\mathbf{u}$ can be designed to steer the system towards the desired configuration. Formulating $\mathbf{A}$, $\mathbf{B}$, and $\mathbf{u}$ while respecting their interdependency thus becomes inherent to the model-based approach.
+For model-based controls, designing the controller based on the dynamics of the systems means solving for $\underline{u}$ such that it steers the system's output configuration towards the reference configuration. Using the terminology of the framework presented above, this inherently requires an expression for $\mathbf{f}$ to be known. The model-based approach as a whole revolves around tailoring $\mathbf{f}$ such that it lends itself for solving $\underline{u}$. 
   
-Formulating models that allow the input to be solved in a mathematically manageable way, while simultaneously remaining faithfully representative of the \textit{actual} system behavior becomes one of model-based controls' biggest challenges. Learning-based controls circumvent this by using data-driven techniques and learning algorithms to arrive at $\mathbf{u}$. In some cases, $\mathbf{\bar{f}}$ may even be left unknown as the full system is wholly formulated by the learning medium ($\mathbf{g(x,u)}$ in \autoref{modelvslearn}).
+Formulating models that allow the input to be solved in a mathematically manageable way, while simultaneously remaining faithfully representative of the \textit{actual} system behavior becomes one of model-based controls' biggest challenges. Learning-based controls circumvent this by using data-driven techniques and learning algorithms to arrive at $\mathbf{u}$. In some cases, $\mathbf{f}$ may even be left unknown as the full system is wholly formulated by the learning medium.
 
 \input{2_background/2-figs/comparison.tex}
 

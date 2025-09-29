@@ -1,0 +1,11 @@
+\begin{table}[!h]
+    \begin{tabularx}{\textwidth}{|*{4}{>{\centering\arraybackslash}X|}}
+        \hline
+        Model & \# of States & ODE? & Controller?\\ \hline
+        Augmented Rigid Body \cite{della_santina_model-based_2020} & $3$ & Yes, but only within certain boundaries & Yes \\ \hline
+        Arc-Length Parametrization \cite{della_santina_improved_2020} & 3 (5*) \par *(parametric states) & Yes & Yes \\ \hline
+        Discrete Cosserat Approach \cite{renda_discrete_2018} & 6 & No* \par *(solved via recursive algorithms) & No \\ \hline
+    \end{tabularx}
+    \caption{Characteristics and features of the dynamic models reviewed so far}
+    \label{modelsum}
+\end{table}
