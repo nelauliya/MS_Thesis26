@@ -10,7 +10,8 @@
 *.out
 *.run.xml
 *.synctex.gz
-*.toc    
+*.toc
+*.txt    
 
 #  Individual File  #
 #####################
@@ -23,3 +24,10 @@ loneAbstract.log
 loneAbstract.pdf
 loneAbstract.synctex.gz
 loneAbstract.tex
+IMG_8095.jpg
+IMG_8111.jpg
+IMG_8118.jpg
+IMG_8133.jpg
+IMG_8138.jpg
+ganttChart_svg-tex.pdf
+ganttChart_svg-tex.pdf_tex

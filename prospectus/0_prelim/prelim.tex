@@ -1,9 +1,10 @@
 %Prelim. page, cover, title, etc.
 
 \begin{titlepage}
+    % \layout
     \begin{center}
         \begin{doublespace}
-            \includesvg[scale=0.4]{0_prelim/BU_logo.svg} \\
+            \includesvg[scale=0.35]{0_prelim/BU_logo.svg} \\
             \textsc{\Large College of Engineering} \\
         \end{doublespace}
         \vfill
@@ -20,22 +21,22 @@
         \vfill
         \begin{doublespace}
             Submitted in partial fulfillment of the requirements for the degree of\\
-            Master of Science\\
+            \large Master of Science\\
             \the\year
         \end{doublespace}
     \end{center}
 \end{titlepage}
 
 \newpage
-\pagestyle{empty}
+% \pagestyle{empty}
+\pagenumbering{roman}
     \begin{center}
         This page intentionally left blank.
     \end{center}
     \cleardoublepage
-\pagestyle{plain}
+% \pagestyle{plain}
 
-\setcounter{page}{1}
-\pagenumbering{roman}
+% \setcounter{page}{1}
     \tableofcontents
 \cleardoublepage
 

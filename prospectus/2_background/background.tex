@@ -1,6 +1,6 @@
 %---------| background outline |---------%
 %---------| 1. Define what model-based controls is
-\subsection{Model-based Controls in Soft Robotics}
+\subsection{Model-based Controls in Soft Robotics} \label{modelbasedinsoro}
 Much of controls theory as a field has progressed in parallel to the advances in our understanding of dynamic modeling. In fact, much of the advancements in controls theory were driven by the need to supplement the gaps in our dynamic models. Starting from the frequency domain and linear controllers, to nonlinear controllers, and most recently machine learning. 
 
 The implementation of control strategies for standard rigid robots has followed this line of progression. Algorithms built around the dynamical model of the robot itself came first, then only recently did strategies employing machine learning began to be implemented--mostly to handle unpredictable scenarios beyond the models' assumptions. Control strategies of the former kind are known as \textit{model}-based controls, where controllers are designed based on models that mathematically represent the robot's dynamics \cite{rakhmatillaev_integrative_2025}. It should be apparent that this has been the case since the dynamics of a rigid-bodied robot can more readily be modelled. 
@@ -8,7 +8,7 @@ The implementation of control strategies for standard rigid robots has followed 
 On the other hand, the development of control strategies for \textit{soft} robots have followed the opposite direction: much of the early works in soft robotics controls employed machine learning strategies due to the high level of complexity and dimensionality required in the dynamical models. Thus, \textit{learning}-based controls were the model for soft robot control strategies through the formative years of the field. Only in recent years did this precedent began to be re-assessed, particularly with the advent of \textit{finite}-dimensional modelling (FDM) techniques compatible with the continuum dynamics of soft robots \cite{della_santina_model-based_2023}.
 %----------------------------------------%     
 %---------| 2. Model-based vs, learning-based; 
-\subsection{Model- vs. Learning-based Controls}
+\subsection{Model- vs. Learning-based Controls} \label{modelvlearndef}
 \input{2_background/2-figs/openloop.tex}
 Model- and learning-based controls differ in the fundamental methodology that underpin \textit{how} each approach steers their dynamic systems. Consider the steady-state open-loop dynamic system expressed in state space as $\mathbf{\dot{x}}=\mathbf{f}(\mathbf{x})$ from \autoref{openloop}, the application of a model- and learning-based controller--respectively--to the system may be represented according to \autoref{modelvslearn}.
 
@@ -19,9 +19,9 @@ In this scenario, $f(\mathbf{x,e,t,...})$ can be considered the controller. It f
 
 \input{2_background/2-figs/openvsclosed.tex}
 
-For model-based controls, designing the controller based on the dynamics of the systems means tuning $\mathbf{u}$ to the $\mathbf{A}$ and $\mathbf{B}$ matrices. A conveniently acceptable way of interpreting $\mathbf{\bar{f}}$ is to regard $\mathbf{A}$ as the system's steady-state behavior, and $\mathbf{B}$ as the system's response to control inputs. The two matrices \textit{must} sufficiently describe the system dynamics before $\mathbf{u}$ can be designed to steer the system towards the desired configuration. Formulating $\mathbf{A}$, $\mathbf{B}$, and $\mathbf{u}$ while respecting their inter-dependency thus becomes inherent to the model-based approach.
+For model-based controls, designing the controller based on the dynamics of the systems means tuning $\mathbf{u}$ to the $\mathbf{A}$ and $\mathbf{B}$ matrices. A conveniently acceptable way of interpreting $\mathbf{\bar{f}}$ is to regard $\mathbf{A}$ as the system's steady-state behavior, and $\mathbf{B}$ as the system's response to control inputs. The two matrices \textit{must} sufficiently describe the system dynamics before $\mathbf{u}$ can be designed to steer the system towards the desired configuration. Formulating $\mathbf{A}$, $\mathbf{B}$, and $\mathbf{u}$ while respecting their interdependency thus becomes inherent to the model-based approach.
   
-Formulating models that allow the input to be solved in a mathematically managable way, while simultaneously remaining faithfully representative of the \textit{actual} system behavior becomes one of model-based controls' biggest challenges. Learning-based controls circumvent this by using data-driven techniques and learning algorithms to arrive at $\mathbf{u}$. In some cases, $\mathbf{\bar{f}}$ may even be left unknown and the full system is wholly formulated by the learning medium ($\mathbf{g(x,u)}$ in \autoref{modelvslearn}).
+Formulating models that allow the input to be solved in a mathematically manageable way, while simultaneously remaining faithfully representative of the \textit{actual} system behavior becomes one of model-based controls' biggest challenges. Learning-based controls circumvent this by using data-driven techniques and learning algorithms to arrive at $\mathbf{u}$. In some cases, $\mathbf{\bar{f}}$ may even be left unknown as the full system is wholly formulated by the learning medium ($\mathbf{g(x,u)}$ in \autoref{modelvslearn}).
 
 \input{2_background/2-figs/comparison.tex}
 

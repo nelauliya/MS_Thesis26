@@ -1,10 +1,3 @@
-%%% TO-DO LIST %%%
-%--------------------------------------------------------------------------%
-% Check with Juliana about double spacing
-% Check with Juliana about sample accepted prospecti
-
-%--------------------------------------------------------------------------%
-
 \documentclass[12pt,letterpaper]{article}          % Single-sided printing for the library
 %\documentclass[12pt,twoside]{article}             % Double-sided printing
 
@@ -17,7 +10,8 @@
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows,positioning}
 \usepackage{blox}
-%\usepackage{showframe}
+\usepackage{pgfgantt} %For making the gantt chart
+\usepackage{lscape}
 %--------------------------------------------------------------------------%
 %Formatting
 \usepackage{bold-extra}
@@ -31,12 +25,15 @@
 \usepackage[autostyle=true,english=american]{csquotes} %Formatting for quotation marks
 \MakeOuterQuote{"}
 \usepackage{float}
+\usepackage{subcaption}
 %--------------------------------------------------------------------------%
 %Maths
 \usepackage{amsmath}
 \usepackage{amssymb}
 %--------------------------------------------------------------------------%
 %Utilities
+% \usepackage{showframe}
+\usepackage{layout}
 \usepackage[
     backend=biber,
     style=ieee,
@@ -61,27 +58,29 @@
 \def\authorName{Nashr El Auliya}
 \def\thesisName{3-Dimensional Model-Based Dynamic Feedback Control for Soft Robots}
 \newcommand{\imgcite}[1]{Image taken from \cite{#1}.}
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Sub-section}
 
 \begin{document}
 %==========================================================================%
 \input{0_prelim/prelim}
 
-\section{Abstract}
+\section{Abstract} \label{abstractsec}
 \input{1_abstract/abstract}
 %\cleardoublepage
 
-\section{Topic Background}
+\section{Topic Background} \label{backgroundsec}
 \input{2_background/background}
 %\cleardoublepage
 
-\section{Prior Work}
+\section{Prior Work} \label{priorsec}
 \input{3_prior/prior}
 %\cleardoublepage
 
-\section{Research Approach}
+\section{Research Approach} \label{approachsec}
 \input{4_approach/approach}
 
-\section{Proposed Timeline}
+\section{Proposed Timeline} \label{timelinesec}
 \input{5_timeline/timeline}
 \cleardoublepage
 
