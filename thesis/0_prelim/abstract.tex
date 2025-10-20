@@ -1,0 +1,21 @@
+%----------| comments & notes |----------%
+% 1> other past work in 3D soft robot control exists. 
+% 2> want to distinguish ours versus others. That's where your literature review comes in! 
+% 3> working on model based control, which can be used to (eventually) certify safety unlike learned controllers
+% 4> manipulator is under large gravitational loads that could violate modeling assumptions 
+% 5> hardware focused rather than simulation. Let me know what else you find as you dig through other prior work
+
+%----------| abstract outline |----------%
+%----------| 1. Big problem statement about subject of study (1 stnc.)
+The physical characteristics of soft robots inherently promise an ability to perform complex motions, as well as to safely and compliantly interact with sensitive environments. 
+%----------| 2. Crucial part of story, not met yet and serves as limitation (1 stnc.)
+While trajectory tracking and environmental interaction control strategies for planar motion have been developed along with motion plans for it, it has yet to be robustly translated to three dimensions. 
+%----------| 3. "Article addresses limitation by [research insight here]" (1 stnc.)
+This proposed thesis thus aims to develop a three-dimensional, model-based, closed loop dynamic controller for continuous soft robots.
+%----------| 4. Technical specifics of problem + solution to them and eng. reasons/motivations (1-2 stnc.)
+%In the interest of leveraging the "physical guarantees" afforded to us by a dynamic model to eventually allow for safety certification, the controller that this work aims to develop shall be a model-based one.
+To develop a robust formulation of this controller, gravitational loads that could potentially violate model assumptions must be dynamically accounted for. Kinematic singularities inherent to the dynamic model used must also be analytically or numerically managed.
+%----------| 5. Research approach and experiments to be done (2-3 stnc.)
+A suitable dynamic model to underpin the control system must first either be formulated, augmented from an existing one, or selected. Then the model must be validated either analytically or simulatively, before the control system can subsequently be built around it. The controller may then finally be validated through hardware implementation.
+%----------| 6. Future directions to address THIS work's limitations OR statement referring back to start (1 stnc.)
+%Probably won't need this part

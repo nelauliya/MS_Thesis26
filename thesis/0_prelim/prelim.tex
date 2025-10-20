@@ -1,0 +1,59 @@
+%Prelim. page, cover, title, etc.
+\pagenumbering{roman}
+\begin{titlepage}
+    % \layout
+    \begin{center}
+        \begin{doublespace}
+            \includesvg[scale=0.35]{0_prelim/BU_logo.svg} \\
+            \textsc{\Large College of Engineering} \\
+        \end{doublespace}
+        \vfill
+        {\large Thesis}\\
+        \vfill
+        \begin{spacing}{1.5}
+            \textbf{\textsc{\huge\thesisName}} \\
+        \end{spacing}
+        \vfill
+        by \\
+        \vfill
+        \textbf{\LARGE\authorName} \\ \vspace{2.5pt}
+        {\Large B.Sc., Boston University, 2024} \\
+        \vfill
+        \begin{doublespace}
+            Submitted in partial fulfillment of the requirements for the degree of\\
+            \large Master of Science\\
+            \the\year
+        \end{doublespace}
+    \end{center}
+\end{titlepage}
+
+\thispagestyle{empty}
+\null\vfill
+\begin{flushright}
+    \begin{singlespace}
+        \copyright \hspace{1ex}
+        \begin{minipage}[t]{3in}
+            \the\year \ by\\
+            NASHR EL AULIYA\\
+            All rights reserved
+        \end{minipage} 
+    \end{singlespace}
+\end{flushright}
+\newpage
+
+\thispagestyle{empty}
+Approved by
+\newpage
+
+Acknowledgments\\
+\input{0_prelim/acknowledgments.tex}
+\newpage
+
+Abstract\\
+\input{0_prelim/abstract.tex}
+\newpage
+
+\tableofcontents
+\cleardoublepage
+
+\pagenumbering{arabic}
